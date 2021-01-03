@@ -2,7 +2,7 @@
 
 .body{
   background: rgb(243, 243, 243);
-  font-family: 'Comfortaa', cursive, 'Noto Sans JP', sans-serif;
+  font-family: 'Comfortaa', cursive 'Noto Sans JP', sans-serif;
 }
 #inputmyname{
   display:none;
