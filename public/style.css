@@ -1,0 +1,117 @@
+@charset "utf8";
+
+.body{
+  background: rgb(243, 243, 243);
+  font-family: 'Comfortaa', cursive;
+}
+#inputmyname{
+  display:none;
+}
+#txt-myname{
+  width: 100%;
+  font-size: 14pt;
+  padding: 4px;
+}
+#frm-myname button{
+  width: 100%;
+  height: 40px;
+  font-size: 12pt;
+}
+
+
+#chat{
+  display:none;
+}
+#chat-main{
+  display:flex;
+}
+#msglist{
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+  list-style-type:none;
+  border: 1px solid rgb(174, 174, 174);
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+#myname{
+  font-weight: bold;
+}
+#msg{
+  width: 100%;
+  font-size: 14pt;
+  padding: 4px;
+}
+#frm-post button{
+  width: 100%;
+  height: 50px;
+  font-size: 10pt;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+@media screen and (min-width: 1500px){
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%; 
+  }
+}
+.msg-me{
+  color:rgb(62, 210, 168);
+}
+.msg-master{
+  color: rgb(50, 90, 154);
+  font-weight: bold;
+}
+.name{
+  font-weight:bold;
+}
+.tt{
+  font-size: 45px;
+  color: rgb(50, 90, 154);
+  font-weight: bold;
+}
+.ttt{
+  font-size: 20px;
+  color: rgb(50, 90, 154);
+  font-weight: bold;
+}
+nn{
+  color:rgb(203, 106, 106);
+}
+small{
+  color:rgb(101, 101, 101);
+}
+#memberlist{
+  width: 150px;
+  height: 400px;
+  overflow-y: scroll;
+  list-style-image: url(circle-solid.svg);
+  border: 1px solid rgb(174, 174, 174);
+  padding: 5px 5px 5px 30px;  /* 上右下左 */
+  margin-left: 10px;
+  border-radius: 10px;
+  background: #fff;
+}
+.member-me{
+  font-weight: bold;
+}
+
+#frm-quit button{
+  width: 180px;
+  height: 40px;
+  font-size: 10pt;
+  border: none;
+  color: #fff;
+  background: rgb(203, 106, 106);
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.bottomspace30{
+  padding-left: 10px ;
+  border-left-width: 5px ;
+  border-left-style: solid ;
+  border-left-color: rgb(20, 209, 171);
+}
