@@ -4,7 +4,6 @@ const http = require("http").createServer(app);
 const io   = require("socket.io")(http);
 
 
-
 const DOCUMENT_ROOT = __dirname + "/public";
 const SECRET_TOKEN = "abcdefghijklmn12345";
 const MEMBER = {};
@@ -22,13 +21,10 @@ app.get("/:file", (req, res)=>{
 });
 
 
-
 io.on("connection", (socket)=>{
 
   (()=>{
-    const toke
-
-    n = makeToken(socket.id);
+    const token = makeToken(socket.id);
 
     MEMBER[socket.id] = {token: token, name:null, count:MEMBER_COUNT};
     MEMBER_COUNT++;
