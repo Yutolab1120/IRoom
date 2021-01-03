@@ -57,6 +57,14 @@
     max-width: 60%; 
   }
 }
+@media screen and (max-width: 950px){
+  #memberlist{
+    display: none;
+  }
+  #msglist{
+    height: 300px;
+  }
+}
 .msg-me{
   color:rgb(62, 210, 168);
 }
